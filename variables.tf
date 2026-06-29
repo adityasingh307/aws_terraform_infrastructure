@@ -22,3 +22,8 @@ variable "private_subnet_cidr_block" {
   description = "The CIDR block for the private subnet"
   type        = string
 }
+
+variable "my_ip_address" {
+  description = "Your public IP address for SSH access"
+  type        = string
+}
